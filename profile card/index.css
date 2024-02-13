@@ -1,0 +1,117 @@
+.slice-7-6-1 {
+    width: 1000px;
+    height: 1000px;
+    position: relative;
+    object-fit: cover;
+    display: none;
+    max-width: 100%;
+    z-index: 0;
+  }
+  .sportz-flexo-rt1-1-icon {
+    width: 208.3px;
+    flex: 1;
+    position: relative;
+    border-radius: 12px;
+    max-height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .sports-and-casual {
+    height: 8.3px;
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.48em;
+    display: inline-block;
+  }
+  .sports-text {
+    width: 294px;
+    height: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 60px 0 59px;
+    box-sizing: border-box;
+  }
+  .udgam2-2-icon {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: scale(1.071);
+  }
+  .wrapper-udgam2-2 {
+    width: 211.1px;
+    height: 156.9px;
+    position: absolute;
+    margin: 0 !important;
+    bottom: 40.3px;
+    left: 12.5px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .slice-7-6-1-parent {
+    height: 1000px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 17px 10px 111px;
+    box-sizing: border-box;
+    position: relative;
+    gap: var(--gap-726xl);
+    background-image: url(./public/group-15@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    max-width: 100%;
+  }
+  .child-frame,
+  .desktop {
+    height: 847px;
+    display: flex;
+    align-items: flex-start;
+  }
+  .child-frame {
+    width: 1020px;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font-size: 5px;
+    color: #000;
+    font-family: var(--font-inter);
+  }
+  .desktop {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 800px) {
+    .slice-7-6-1-parent {
+      padding-top: var(--padding-xl);
+      padding-bottom: 72px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .sports-text {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .slice-7-6-1-parent {
+      gap: var(--gap-726xl);
+    }
